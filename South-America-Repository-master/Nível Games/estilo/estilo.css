@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    font-family: verdana;
+    text-align: center;
+}
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+header{
+    background-color: #6cf;
+    color: #fff;
+    padding: 15px;
+}
+nav{
+    background-color: #ddd;
+}
+nav ul{
+    list-style: none;
+}
+nav ul li{
+    display: inline; /*Coloca um do lado do outro*/
+}
+nav ul li a{
+    text-decoration: none;
+    color: #333;
+    padding: 10px;
+    display: inline-block;
+    border-bottom: solid 2px #00a;
+}
+nav ul li a:hover{
+    background-color: #00a;
+    color: #fff;
+}
+section{
+    min-height: 400px;
+    /*padding: 10px;*/
+}
+footer{
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+    padding: 10px;
+}
+figure{
+    display: inline-block;
+    margin: 10px;
+    background-color: #000;
+    padding: 15px;
+    border-radius: 15px;
+    opacity: 0.8;
+}
+figure.hover{
+    opacity: 1;
+}
+figcaption a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.titulo{
+    margin: 20px;
+    color: #09f;
+    border-bottom: solid #000 2px;
+    padding: 0px 0px 15px 0px;
+    font-size: 35px;
+}
+table{
+    margin: 0 auto;
+    width: 70%;
+}
+table, tr, th, td{
+    border: solid 1px #999;
+}
+th{
+    background-color: #09f;
+    color: #fff;
+}
+.dds{
+    text-align: left;
+}
+.de{
+    background-color: #9cf;
+}
+tr:hover{
+    opacity: 0.8;
+}
+fieldset{
+    width: 60%;
+    margin: 0 auto;
+}
+.legenda{
+    width:20%;
+    vertical-align: top;
+    display: inline-block;
+    text-align: right;
+}
+.dados{
+    text-align: left;
+    width: 70%;
+    display: inline-block;
+}
+button{
+    background-color: #09f;
+    font-size: 20px;
+    border-radius: 8px;
+    color: #fff;
+    padding: 8px 40px;
+}
+.formulario{
+    margin: 10px;
+}
+textarea{
+    height: 80px;
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>.:: NÍVEL GAMES ::.</title>
+    <link rel="stylesheet" href="estilo/estilo.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Nível Games</h1>
+        </header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="home.html">Home</a>
+                </li>
+                <li>
+                    <a href="consoles.html">Consoles</a>
+                </li>
+                <li>
+                    <a href="jogos.html">Jogos</a>
+                </li>
+                <li>
+                    <a href="multimidias.html">Multimídias</a>
+                </li>
+                <li>
+                   <a href="contato.html">Contato</a>
+                </li>
+                <li>
+                   <a href="horario.html">Horário</a>
+                </li>
+                <li>
+                    <a href="comochegar.html">Como Chegar</a>
+                </li>
+            </ul>
+        </nav>
+        <section>
+            <h1 class="titulo">Contato</h1>
+            <fieldset>
+                <legend>Dados Pessoais</legend>
+                <div class="formulario">
+                    <label for="nome" class="legenda">Nome</label>
+                    <input type="text" id="nome" required class="dados">
+                </div>  
+                <div class="formulario">
+                    <label for="email" class="legenda">E-mail</label>
+                    <input type="email" id="email" required class="dados">
+                </div>            
+                <div class="formulario">
+                    <label for="idade" class="legenda">Idade</label>
+                    <input type="NUMBER" id="idade" required class="dados">
+                </div>
+                <div class="formulario">
+                    <label for="" class="legenda">Sexo</label>
+                    <div class="dados">
+                        <input type="radio" id="m" name="sexo" />
+                        <label for="m">Masculino</label>
+                        <input type="radio" id="f" name="sexo" />
+                        <label for="f">Feminino</label>
+                    </div>
+                    <div class="formulario">
+                        <label for="telefone" class="legenda">Telefone</label>
+                        <input type="tel" id="telefone" required class="dados">
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Mensagem</legend>
+                    <div class="formulario">
+                        <label for="assunto" class="legenda">Assunto</label>
+                        <select id="assunto" class="dados">
+                            <option>Críticas</option>
+                            <option>Sugestões</option>
+                            <option>Compras</option>
+                            <option>Outros</option>
+                        </select>
+                    </div>
+                    <div class="formulario">
+                        <label for="msg" class="legenda">Mensagem</label>
+                        <textarea id="msg" class="dados"></textarea>
+                    </div>
+                    <button type="submit">Enviar    </button>
+                </fieldset>
+        </section>
+        <footer>
+            <p>Rua Carolina Machado, 40 Madureira</p>
+            <p>Tel.: 3315-1515</p>
+        </footer>
+    </div>        
+</body>
+</html>
