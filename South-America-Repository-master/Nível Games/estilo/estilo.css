@@ -112,3 +112,8 @@ button{
 textarea{
     height: 80px;
 }
+.card{
+    display: inline-block;
+    border: solid 3px #000;
+    margin: 10px;
+}
