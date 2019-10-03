@@ -1,49 +1,119 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <title>.:: NÍVEL GAMES ::.</title>
-    <link rel="stylesheet" href="estilo/estilo.css">
+        <meta charset="UTF-8">
+        <title>.:: GM GAMES ::.</title>
+        <link rel="stylesheet" href="estilo/estilo.css">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+    *{
+    margin: 0;
+    text-align: center;
+
+}
+.container{
+    max-width: 1100px;
+}
+body{
+    background-image: url(fundo2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+header{
+    background-color: #131207;
+    color: #ff8800;
+    padding: 10px;
+}
+nav ul li{
+    display: inline;
+}
+nav ul li a{
+    display: inline-block;
+    padding: 10px;
+    color: #000;
+}
+nav ul li a:hover{
+    background-color: #ff8800;
+}
+section{
+    min-height: 600px;
+    padding: 50px; 
+}
+figure{
+    display: inline-block;
+    margin: 20px;
+    padding: 30px;
+    background-color: #000;
+    border-radius: 15px;
+}
+button:hover{
+    background-color: #ff8800;
+}
+figure figcaption{
+    padding: 5px;
+}
+    </style>
 </head>
 <body>
     <div class="container">
-        <header>
-            <h1>Nível Games</h1>
-        </header>
-        <nav>
-            <ul>
-                <li>
-                    <a href="home.html">Home</a>
+    <header>
+        <h1>GM Games</h1>
+    </header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark col-12 col-sm-12 col-md-12 col-xl-12">
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                <a class="nav-link btn" href="index.html">Home</a>
                 </li>
-                <li>
-                    <a href="consoles.html">Consoles</a>
+                <li class="nav-item">
+                <a class="nav-link btn" href="consoles.html">Consoles</a>
                 </li>
-                <li>
-                    <a href="jogos.html">Jogos</a>
+                <li class="nav-item"> 
+                <a class="nav-link btn" href="jogos.html">Jogos</a> 
                 </li>
-                <li>
-                    <a href="multimidias.html">Multimídias</a>
+                <li class="nav-item">
+                    <a class="nav-link btn" href="pecas.html">PC</a>
                 </li>
-                <li>
-                   <a href="contato.html">Contato</a>
+                <li class="nav-item">
+                    <a class="nav-link btn" href="formpg.html">Formas de pagamento</a>
                 </li>
-                <li>
-                   <a href="horario.html">Horário</a>
+                <li class="nav-item">
+                    <a class="nav-link btn" href="horario.html">Horário</a>
                 </li>
-                <li>
-                    <a href="comochegar.html">Como Chegar</a>
+                <li class="nav-item active">
+                    <a class="nav-link btn" href="comochegar.html">Como Chegar <span class="sr-only">(current)</span></a>
                 </li>
             </ul>
-        </nav>
-        <section>
-           <h1 class="titulo">Como Chegar</h1>
-
-           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.8810430826006!2d-43.33213138488566!3d-22.88085234269885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9962d328a56d0f%3A0x9343144483ea1ae6!2sR.%20Carolina%20Machado%2C%2040%20-%20Cascadura%2C%20Rio%20de%20Janeiro%20-%20RJ%2C%2021350-135!5e0!3m2!1spt-BR!2sbr!4v1566923532500!5m2!1spt-BR!2sbr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-        </section>
-        <footer>
-            <p>Rua Carolina Machado, 40 Madureira</p>
-            <p>Tel.: 3315-1515</p>
-        </footer>
-    </div>        
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Search">
+                    <button class=" btn my-2 my-sm-0" type="submit">Pesquisar</button>
+                </form>
+        </div>
+    </nav>
+    <section>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3674.180324010173!2d-43.348102385132734!3d-22.943585184993122!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9bd834e70068e7%3A0xf30a2fa2b7ad92ee!2sEstr.%20do%20Gabinal%2C%20352%20-%20Freguesia%20de%20Jacarepagu%C3%A1%2C%20Rio%20de%20Janeiro%20-%20RJ%2C%2022760-152!5e0!3m2!1spt-BR!2sbr!4v1568748463926!5m2!1spt-BR!2sbr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+    </section>    
+    <div class="container">
+            <div class="col-12 col-md-6">
+                <div class="card mt-5">
+                    <div class="cardheader bg-dark" style="color: #ff8800" >
+                        <h3>Localização</h3>
+                    </div>
+                    <div class="card-body"> 
+                            Estr. do Gabinal, 352 - Freguesia de Jacarepaguá, Rio de Janeiro - RJ                    </div>
+                <div class="card-footer bg-light">
+                        Tel: 3315-1515
+                </div>
+            </div>
+        </div>                   
+</section>    
+</div>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
+</html>
+    </body>
 </html>
